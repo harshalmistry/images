@@ -102,7 +102,6 @@ Once cloned, run below command from root to run it locally:
 
 *prerequisite*
 
-* Service uses locally running MySQL server. Please create database (usersDB) before. Please update credentials for same.
 * Service uses eureka service to register itself. It's URL can be changed in application.properties (eureka.client.serviceUrl.defaultZone)
 
 ```
@@ -111,6 +110,7 @@ java -jar target/users-service-0.0.1-SNAPSHOT.jar
 ```
 
 It should start locally user service on port 5100. It can be changed in application.yml (server.port)
+To check data : http://localhost:5100/h2-ui
 
 **Stock Service**
 
@@ -123,7 +123,6 @@ Once cloned, run below command from root to run it locally:
 
 *prerequisite*
 
-* Service uses locally running MySQL server. Please create database (stocksDB) before. Please update credentials for same.
 * Service uses eureka service to register itself. It's URL can be changed in application.properties (eureka.client.serviceUrl.defaultZone)
 
 ```
@@ -131,6 +130,7 @@ mvn clean install
 java -jar target/stocks-service-0.0.1-SNAPSHOT.jar
 ```
 It should start locally user service on port 5000. It can be changed in application.yml (server.port)
+To check data : http://localhost:5000/h2-ui
 
 ## Application snapshots
 
