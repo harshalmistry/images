@@ -37,9 +37,9 @@ MVP has following functionalities:
 
 **Frontend**
 
-[bm_frontend](https://github.com/harshalmistry/blackmagic-stocksmarket)
+[BM Frontend](https://github.com/harshalmistry/blackmagic-stocksmarket)
 
-Once cloned front end code, run below command in order to run application locally.
+Once cloned, run below command to run it locally:
 
 ```
 ng serve --open
@@ -56,13 +56,24 @@ Application uses following configuration (can be foudn under environments proper
   
 ```
 
-here **localhost:8765** is locally running spring cloud gateway service url.
+here **localhost:8765** is locally running spring cloud gateway service url. 
+**refreshRate** is interval property, which application uses in order to refresh stocks watchlist data.
 
 **Bakcend**
 
 Backend is devided into multiple microservices.
 
-[bm_eureka_service](https://github.com/harshalmistry/eureka-service)
+**Eureka Service Discovery**
+
+This is a service registery and discovery service. Other applications register/deregister and lookup for other services using this service.
+
+[BM Eureka Service](https://github.com/harshalmistry/eureka-service)
+
+Once cloned, run below command to run it locally:
+
+```
+
+```
 
 [bm_gateway_service](https://github.com/harshalmistry/gateway-service)
 
