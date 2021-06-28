@@ -43,10 +43,10 @@ MVP has following functionalities:
 
 Backend is devided into multiple microservices.
 
-![bm_eureka_service](https://github.com/harshalmistry/eureka-service)
+[bm_eureka_service](https://github.com/harshalmistry/eureka-service)
 
-![bm_gateway_service](https://github.com/harshalmistry/gateway-service)
+[bm_gateway_service](https://github.com/harshalmistry/gateway-service)
 
-![bm_user_service](https://github.com/harshalmistry/users-service)
+[bm_user_service](https://github.com/harshalmistry/users-service)
 
-![bm_stock_service](https://github.com/harshalmistry/stocks-service)
+[bm_stock_service](https://github.com/harshalmistry/stocks-service)
