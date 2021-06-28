@@ -163,7 +163,7 @@ mvn test
 It should generate test report under target/karate-reports. Click on <feature_name>.html to view report.
 
 Sample report for add stock to watchlist
-![karate](https://github.com/harshalmistry/images/blob/main/karate.png)
+![karate](https://github.com/harshalmistry/images/blob/main/karate_new.png)
 
 ## Gatling Performance Testing
 
