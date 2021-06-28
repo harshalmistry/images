@@ -179,4 +179,5 @@ Once cloned, run below command from root directory:
 
 It should generate test report under target/gatling. Click on index.html to view report.
 
-Sample report for 
+Sample gatling report
+![Gatling](https://github.com/harshalmistry/images/blob/main/performance.png)
