@@ -39,7 +39,7 @@ MVP has following functionalities:
 
 [BM Frontend](https://github.com/harshalmistry/blackmagic-stocksmarket)
 
-Once cloned, run below command to run it locally:
+Once cloned, run below command from root folder to run it locally:
 
 ```
 ng serve --open
@@ -69,11 +69,14 @@ This is a service registery and discovery service. Other applications register/d
 
 [BM Eureka Service](https://github.com/harshalmistry/eureka-service)
 
-Once cloned, run below command to run it locally:
+Once cloned, run below command from root to run it locally:
 
 ```
-
+mvn clean install
+java -jar target/eureka-service-0.0.1-SNAPSHOT.jar
 ```
+It should start local eureka server on port 8761. It can be changed in application.properties (server.port)
+
 
 [bm_gateway_service](https://github.com/harshalmistry/gateway-service)
 
