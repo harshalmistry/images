@@ -153,6 +153,10 @@ For User and Stock service functional/integration testing is done using karate f
 
 Once cloned, run below command from root directory:
 
+*prerequisite*
+
+* User and Stock service should be up and running.
+
 ```
 mvn test
 ```
