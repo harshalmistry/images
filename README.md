@@ -77,8 +77,17 @@ java -jar target/eureka-service-0.0.1-SNAPSHOT.jar
 ```
 It should start local eureka server on port 8761. It can be changed in application.properties (server.port)
 
+**Gateway Service**
 
-[bm_gateway_service](https://github.com/harshalmistry/gateway-service)
+This is a gateway service. It is entry guard to backend microservices world.
+
+[BM Gateway Service](https://github.com/harshalmistry/gateway-service)
+
+Once cloned, run below command from root to run it locally:
+
+```
+
+```
 
 [bm_user_service](https://github.com/harshalmistry/users-service)
 
