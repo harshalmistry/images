@@ -33,3 +33,20 @@ MVP has following functionalities:
 9. Remove stock from watchlist
 
 
+## Code Repositories
+
+**Frontend**
+
+![bm_frontend](https://github.com/harshalmistry/blackmagic-stocksmarket)
+
+**Bakcend**
+
+Backend is devided into multiple microservices.
+
+![bm_eureka_service](https://github.com/harshalmistry/eureka-service)
+
+![bm_gateway_service](https://github.com/harshalmistry/gateway-service)
+
+![bm_user_service](https://github.com/harshalmistry/users-service)
+
+![bm_stock_service](https://github.com/harshalmistry/stocks-service)
