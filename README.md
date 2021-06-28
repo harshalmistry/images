@@ -155,7 +155,7 @@ Once cloned, run below command from root directory:
 
 *prerequisite*
 
-* User and Stock service should be up and running.
+* User and Stock service should be up and running. Service URLs can be configured in src/test/java/karate-config.js file (stocksUrl, usersUrl)
 
 ```
 mvn test
