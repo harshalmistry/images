@@ -75,7 +75,7 @@ Once cloned, run below command from root to run it locally:
 mvn clean install
 java -jar target/eureka-service-0.0.1-SNAPSHOT.jar
 ```
-It should start local eureka server on port 8761. It can be changed in application.properties (server.port)
+It should start locally eureka server on port 8761. It can be changed in application.properties (server.port)
 
 **Gateway Service**
 
@@ -86,10 +86,31 @@ This is a gateway service. It is entry guard to backend microservices world.
 Once cloned, run below command from root to run it locally:
 
 ```
+mvn clean install
+java -jar target/gateway-service-0.0.1-SNAPSHOT.jar 
+```
+It should start locally gateway server on port 8765. It can be changed in application.yml (server.port)
+It uses eureka service to lookup other services. It's URL can be changed in application.yml (eureka.client.serviceUrl.defaultZone)
+
+[BM User Service](https://github.com/harshalmistry/users-service)
+
+This is a user service. It provides endpoints to register user and authenticate registered user.
+
+Once cloned, run below command from root to run it locally:
+
+*prerequisite*
+
+* Service uses locally running MySQL server. Please create database (usersDB) before. Please update credentials for same.
+* Service uses eureka service to register itself. It's URL can be changed in application.properties (eureka.client.serviceUrl.defaultZone)
 
 ```
+mvn clean install
+java -jar target/users-service-0.0.1-SNAPSHOT.jar
+```
 
-[bm_user_service](https://github.com/harshalmistry/users-service)
+It should start locally 
+
+
 
 [bm_stock_service](https://github.com/harshalmistry/stocks-service)
 
