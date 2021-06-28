@@ -33,11 +33,30 @@ MVP has following functionalities:
 9. Remove stock from watchlist
 
 
-## Code Repositories
+## Code Repositories & local setup
 
 **Frontend**
 
-![bm_frontend](https://github.com/harshalmistry/blackmagic-stocksmarket)
+[bm_frontend](https://github.com/harshalmistry/blackmagic-stocksmarket)
+
+Once cloned front end code, run below command in order to run application locally.
+
+```
+ng serve --open
+```
+
+*important*
+
+Application uses following configuration (can be foudn under environments properties): 
+
+```
+  userServiceBaseUrl: 'http://localhost:8765/bw-users-service/api/users',
+  stockServiceBaseUrl: 'http://localhost:8765/bw-stocks-service/api/stocks',
+  refreshRate: 60000,
+  
+```
+
+here **localhost:8765** is locally running spring cloud gateway service url.
 
 **Bakcend**
 
@@ -50,3 +69,4 @@ Backend is devided into multiple microservices.
 [bm_user_service](https://github.com/harshalmistry/users-service)
 
 [bm_stock_service](https://github.com/harshalmistry/stocks-service)
+
