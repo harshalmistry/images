@@ -136,7 +136,7 @@ It should start locally user service on port 5000. It can be changed in applicat
 
 1. Signup & Login
 ![signup_login](https://github.com/harshalmistry/images/blob/main/singup_login.png)
-2. Stock Dashboard
+2. Stock Dashboard (watchlist stocks refresh every 1 min, it can be changed in frontend application - refreshRate)
 ![stock_dashboard](https://github.com/harshalmistry/images/blob/main/stock_dashboard.png)
 3. Stock Search
 ![stock_search](https://github.com/harshalmistry/images/blob/main/stock_search.png)
