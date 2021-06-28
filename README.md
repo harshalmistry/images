@@ -144,3 +144,21 @@ It should start locally user service on port 5000. It can be changed in applicat
 ![add_watchlist](https://github.com/harshalmistry/images/blob/main/add_watchlist.png)
 5. Update Stock
 ![update_stock](https://github.com/harshalmistry/images/blob/main/update_stock.png)
+
+## Karate Testing
+
+For User and Stock service functional/integration testing is done using karate framework. Please find code for same below.
+
+[BM Karate](https://github.com/harshalmistry/bmstocks-karate)
+
+Once cloned, run below command from root directory:
+
+```
+mvn test
+```
+It should generate test report under target/karate-reports. Click on <feature_name>.html to view report.
+
+Sample report for add stock to watchlist
+![karate](https://github.com/harshalmistry/images/blob/main/karate.png)
+
+
