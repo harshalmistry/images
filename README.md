@@ -37,7 +37,7 @@ MVP has following functionalities:
 
 **Frontend**
 
-[BM Frontend](https://github.com/harshalmistry/blackmagic-stocksmarket)
+[BM Frontend](https://bitbucket.org/abhijitingle/ws-harshal-mistry/src/master/bm_frontend/)
 
 Once cloned, run below command from root folder to run it locally:
 
@@ -67,7 +67,7 @@ Backend is devided into multiple microservices.
 
 This is a service registery and discovery service. Other applications register/deregister and lookup for other services using this service.
 
-[BM Eureka Service](https://github.com/harshalmistry/eureka-service)
+[BM Eureka Service](https://bitbucket.org/abhijitingle/ws-harshal-mistry/src/master/eureka-service/)
 
 Once cloned, run below command from root to run it locally:
 
@@ -81,7 +81,7 @@ It should start locally eureka server on port 8761. It can be changed in applica
 
 This is a gateway service. It is entry guard to backend microservices world.
 
-[BM Gateway Service](https://github.com/harshalmistry/gateway-service)
+[BM Gateway Service](https://bitbucket.org/abhijitingle/ws-harshal-mistry/src/master/gateway-service/)
 
 Once cloned, run below command from root to run it locally:
 
@@ -94,7 +94,7 @@ It uses eureka service to lookup other services. It's URL can be changed in appl
 
 **User Service**
 
-[BM User Service](https://github.com/harshalmistry/users-service)
+[BM User Service](https://bitbucket.org/abhijitingle/ws-harshal-mistry/src/master/user-service/)
 
 This is a user service. It provides endpoints to register user and authenticate registered user.
 
@@ -114,7 +114,7 @@ To check data : http://localhost:5100/h2-ui
 
 **Stock Service**
 
-[BM Stock Service](https://github.com/harshalmistry/stocks-service)
+[BM Stock Service](https://bitbucket.org/abhijitingle/ws-harshal-mistry/src/master/stock-service/)
 
 This is a stock service. It provides endpoints to search stock, adding stock to watchlist, updating stock and removing stock from watchlist.
 It also provided endpoint to query list of watchlist stocks using user id.
@@ -149,7 +149,7 @@ To check data : http://localhost:5000/h2-ui
 
 For User and Stock service functional/integration testing is done using karate framework. Please find code for same below.
 
-[BM Karate](https://github.com/harshalmistry/bmstocks-karate)
+[BM Karate](https://bitbucket.org/abhijitingle/ws-harshal-mistry/src/master/bmstock_karate_perf/)
 
 Once cloned, run below command from root directory:
 
@@ -169,7 +169,7 @@ Sample report for add stock to watchlist
 
 For User and Stock service performance testing is done using karate and gatling framework. Please find code for same below.
 
-[BM Karate](https://github.com/harshalmistry/bmstocks-karate)
+[BM Karate](https://bitbucket.org/abhijitingle/ws-harshal-mistry/src/master/bmstock_karate_perf/)
 
 Once cloned, run below command from root directory:
 
