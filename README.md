@@ -92,6 +92,8 @@ java -jar target/gateway-service-0.0.1-SNAPSHOT.jar
 It should start locally gateway server on port 8765. It can be changed in application.yml (server.port)
 It uses eureka service to lookup other services. It's URL can be changed in application.yml (eureka.client.serviceUrl.defaultZone)
 
+**User Service**
+
 [BM User Service](https://github.com/harshalmistry/users-service)
 
 This is a user service. It provides endpoints to register user and authenticate registered user.
@@ -109,6 +111,8 @@ java -jar target/users-service-0.0.1-SNAPSHOT.jar
 ```
 
 It should start locally user service on port 5100. It can be changed in application.yml (server.port)
+
+**Stock Service**
 
 [BM Stock Service](https://github.com/harshalmistry/stocks-service)
 
