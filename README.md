@@ -132,4 +132,15 @@ java -jar target/stocks-service-0.0.1-SNAPSHOT.jar
 ```
 It should start locally user service on port 5000. It can be changed in application.yml (server.port)
 
+## Application snapshots
 
+1. Signup & Login
+![signup_login](https://github.com/harshalmistry/images/blob/main/singup_login.png)
+2. Stock Dashboard
+![stock_dashboard](https://github.com/harshalmistry/images/blob/main/stock_dashboard.png)
+3. Stock Search
+![stock_search](https://github.com/harshalmistry/images/blob/main/stock_search.png)
+4. Add to watchlist
+![add_watchlist](https://github.com/harshalmistry/images/blob/main/add_watchlist.png)
+5. Update Stock
+![update_stock](https://github.com/harshalmistry/images/blob/main/update_stock.png)
