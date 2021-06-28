@@ -177,6 +177,10 @@ Once cloned, run below command from root directory:
 
 * User and Stock service should be up and running. Service URLs can be configured in src/test/java/karate-config.js file (stocksUrl, usersUrl)
 
+```
+mvn clean test-compile gatling:test
+```
+
 It should generate test report under target/gatling. Click on index.html to view report.
 
 Sample gatling report
