@@ -165,4 +165,18 @@ It should generate test report under target/karate-reports. Click on <feature_na
 Sample report for add stock to watchlist
 ![karate](https://github.com/harshalmistry/images/blob/main/karate.png)
 
+## Gatling Performance Testing
 
+For User and Stock service performance testing is done using karate and gatling framework. Please find code for same below.
+
+[BM Karate](https://github.com/harshalmistry/bmstocks-karate)
+
+Once cloned, run below command from root directory:
+
+*prerequisite*
+
+* User and Stock service should be up and running. Service URLs can be configured in src/test/java/karate-config.js file (stocksUrl, usersUrl)
+
+It should generate test report under target/gatling. Click on index.html to view report.
+
+Sample report for 
