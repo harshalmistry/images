@@ -1,5 +1,5 @@
 # BlackMagic Stocks Market
-----------------------------
+
 Invest today and secure future.
 
 Using this application, one can make easy investment. Create own stocks dashboard. 
@@ -47,7 +47,7 @@ ng serve --open
 
 *important*
 
-Application uses following configuration (can be foudn under environments properties): 
+Application uses following configuration (can be found under environments properties): 
 
 ```
   userServiceBaseUrl: 'http://localhost:8765/bw-users-service/api/users',
@@ -108,9 +108,24 @@ mvn clean install
 java -jar target/users-service-0.0.1-SNAPSHOT.jar
 ```
 
-It should start locally 
+It should start locally user service on port 5100. It can be changed in application.yml (server.port)
 
+[BM Stock Service](https://github.com/harshalmistry/stocks-service)
 
+This is a stock service. It provides endpoints to search stock, adding stock to watchlist, updating stock and removing stock from watchlist.
+It also provided endpoint to query list of watchlist stocks using user id.
 
-[bm_stock_service](https://github.com/harshalmistry/stocks-service)
+Once cloned, run below command from root to run it locally:
+
+*prerequisite*
+
+* Service uses locally running MySQL server. Please create database (stocksDB) before. Please update credentials for same.
+* Service uses eureka service to register itself. It's URL can be changed in application.properties (eureka.client.serviceUrl.defaultZone)
+
+```
+mvn clean install
+java -jar target/stocks-service-0.0.1-SNAPSHOT.jar
+```
+It should start locally user service on port 5000. It can be changed in application.yml (server.port)
+
 
